@@ -10,7 +10,6 @@ public class PlayerSpawner: MonoBehaviour, IService, IPauseHandler
     private EventBus _eventBus;
     private GameObject snakeObj;
     private Player _player;
-    private IPlayerSpawnPoint _playerSpawn;
     private int _snakeHeadId;
     private bool isPaused;
     
@@ -32,7 +31,6 @@ public class PlayerSpawner: MonoBehaviour, IService, IPauseHandler
     
     public void RegisterSpawn(IPlayerSpawnPoint spawn)
     {
-        _playerSpawn = spawn;
         Instantiate(_player, spawn.transform.position, Quaternion.identity); 
     }
     private void OnDestroy() => _eventBus.Unsubscribe<GameStartSignal>(Spawn);

@@ -6,14 +6,11 @@ using System.Collections.Generic;
 using ObjectPool;
 using CustomEventBus;
 using CustomEventBus.Signals;
-using Random = System.Random;
 
 public class EnemySpawner : MonoBehaviour, IService, IPauseHandler {
     private EventBus _eventBus;
-    private Random rand;
     private List<IEnemySpawnPoint> _enemySpawns;
     private Pool<Enemy> pool;
-    [SerializeField] private int maxNumOfEnemies;
     private List<EnemyData> _enemies;
     private bool isPaused; 
     private PauseController _pauseController; 
@@ -31,7 +28,6 @@ public class EnemySpawner : MonoBehaviour, IService, IPauseHandler {
 
     public void OnSpawnEnemies(SpawnEnemiesSignal signal)
     {
-        rand = new Random();
         _enemySpawns = new List<IEnemySpawnPoint>();
         _eventBus.Invoke(new RegisterEnemySpawnSignal());
         pool = new Pool<Enemy>(_enemies.ToDictionary(x=>x.typeOfEnemies, x=>x.countInSpawn*_enemySpawns.Count()));

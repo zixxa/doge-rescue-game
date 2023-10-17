@@ -1,9 +1,8 @@
 using System;
 using UnityEngine;
 using UnityEngine.AI;
+using CustomEventBus;
 using CustomEventBus.Signals;
-using Unity.VisualScripting;
-using EventBus = CustomEventBus.EventBus;
 
 public class Enemy : MonoBehaviour, IService{
 

@@ -5,46 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d7f151f-5032-492d-908e-a0f1be0e1f1e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/testgame_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.doge-resqcue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.doge-resqcue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/GameSignals/GameOverSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/GameSignals/GameOverSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/GoldSignals.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/GoldSignals/AddGoldSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/GoldSignals/AddGoldSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/GoldSignals/GoldChangedSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/GoldSignals/GoldChangedSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/GoldSignals/SpendGoldSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/GoldSignals/SpendGoldSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/LevelSignals/DestroyPreviousLevelSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/LevelSignals/DestroyPreviousLevelSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/LevelSignals/SetLevelSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/LevelSignals/SetLevelSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/ManaSignals.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/ManaSignals/AddGoldSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/ManaSignals/AddGoldSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/ManaSignals/ManaChangedSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/ManaSignals/ManaChangedSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/ManaSignals/RedrawManaSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/PlayerSignal/RedrawHPSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/ManaSignals/RedrawManaSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/PlayerSignal/RedrawHPSignal.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/ManaSignals/SpendManaSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/ManaSignals/SpendManaSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/NavMeshSignals.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/NavMeshSignals/HitPlayerSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/NavMeshSignals/HitPlayerSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/PlayerSignal/GetPlayerPositionSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/PlayerSignal/GetPlayerPositionSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/PlayerSignal/SetCameraPositionSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/PlayerSignal/SetCameraPositionSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/SettingsSignals.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/SettingsSignals/ChangeLanguageSingal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/SettingsSignals/ChangeLanguageSingal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/SettingsSignals/ChangeMusicSingal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/SettingsSignals/ChangeMusicSingal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/SettingsSignals/ChangeSoundSingal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/SettingsSignals/ChangeSoundSingal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/TimerSignals.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/TimerSignals/GetTimeSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/TimerSignals/GetTimeSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/TimerSignals/StartTimerSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventBus/Signals/TimerSignals/StartTimerSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawners/Enemies/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawners/Enemies/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawners/Player/PlayerSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawners/Player/PlayerSpawner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +21,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33e1115c0aa6443e9f22926e2547a5a9172a00/8c/ca6960e1/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3e95d18447c44d5284d517ab50b620d194b400/f9/a6aecb35/SerializedObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/Enemies/EnemySpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/zixxa/unity_projects/doge-resqcue/Assets/Scripts/Spawners/Enemies/EnemySpawner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StaticData/Enemies/EnemyData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StaticData/Levels/LevelData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.animation@9.0.3/Editor/Analytics.cs" root0="SKIP_HIGHLIGHTING" />
@@ -163,6 +130,7 @@
       <workItem from="1697446871097" duration="9277000" />
       <workItem from="1697456952566" duration="1176000" />
       <workItem from="1697547821186" duration="988000" />
+      <workItem from="1697554658496" duration="505000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -228,32 +196,6 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Spawners/Player/PlayerSpawner.cs</url>
-          <line>35</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Spawners/Player/PlayerSpawner.cs" initialLine="35" containingFunctionPresentation="Method 'RegisterSpawn'">
-            <startOffsets>
-              <option value="954" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1022" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Spawners/Player/PlayerSpawner.cs</url>
-          <line>25</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Spawners/Player/PlayerSpawner.cs" initialLine="25" containingFunctionPresentation="Method 'GetPrefab'">
-            <startOffsets>
-              <option value="684" />
-            </startOffsets>
-            <endOffsets>
-              <option value="724" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/Spawners/Player/PlayerSpawnPoint.cs</url>
           <line>22</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Spawners/Player/PlayerSpawnPoint.cs" initialLine="21" containingFunctionPresentation="Method 'OnInit'">
@@ -281,16 +223,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/Spawners/Enemies/EnemySpawner.cs</url>
-          <line>45</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Spawners/Enemies/EnemySpawner.cs" initialLine="42" containingFunctionPresentation="Method 'Register'">
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Spawners/Enemies/EnemySpawner.cs" initialLine="45" containingFunctionPresentation="Method 'Register'">
             <startOffsets>
-              <option value="1570" />
+              <option value="1436" />
             </startOffsets>
             <endOffsets>
-              <option value="1593" />
+              <option value="1459" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

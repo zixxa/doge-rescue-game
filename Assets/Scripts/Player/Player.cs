@@ -1,11 +1,10 @@
 using System;
 using UnityEngine;
 using CustomEventBus.Signals;
-using EventBus = CustomEventBus.EventBus;
+using CustomEventBus;
 
 public class Player: MonoBehaviour, IService
 {
-    private PauseController _pauseController;
     private EventBus _eventBus;
     private int bodyCount;
     private int hp = 3;
@@ -15,7 +14,6 @@ public class Player: MonoBehaviour, IService
     void Start()
     {
         _eventBus = ServiceLocator.Current.Get<EventBus>();
-        _pauseController = ServiceLocator.Current.Get<PauseController>();
         _eventBus.Subscribe<SpawnEnemiesSignal>(GetPosition);
         _eventBus.Subscribe<GameClearSignal>(OnClear);
         _eventBus.Subscribe<HitPlayerSignal>(HitPlayer);
